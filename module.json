@@ -1,31 +1,32 @@
 {
-  "name": "module",
-  "title": "New Module",
+  "name": "_introjs",
+  "title": "Intro.js",
   "description": "",
-  "version": "0.0.1",
+  "version": "3.2.1-fvtt1",
+  "library": "true",
+  "manifestPlusVersion": "1.0.0",
   "minimumCoreVersion": "0.7.9",
   "compatibleCoreVersion": "0.7.9",
-  "author": "Cody Swendrowski <cody@swendrowski.us>",
-  "dependencies": [
-
-  ],
-  "esmodules": [
-    "/scripts/module.js"
-  ],
-  "scripts": [
-    "/scripts/lib/lib.js"
-  ],
-  "styles": [
-    "/styles/module.css"
-  ],
-  "languages": [
+  "authors": [
     {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
+      "name": "The League of Extraordinary FVTT Developers",
+      "url": "https://github.com/League-of-Foundry-Developers"
+    },
+    {
+      "name": "Intro.js",
+      "url": "https://github.com/usablica/intro.js"
     }
   ],
-  "url": "https://github.com/cswendrowski/FoundryVTT-module",
-  "manifest": "https://github.com/cswendrowski/FoundryVTT-module/releases/download/latest/module.json",
-  "download": "https://github.com/cswendrowski/FoundryVTT-module/releases/download/0.0.1/module.zip"
+  "scripts": [
+    "intro.js"
+  ],
+  "url": "https://github.com/League-of-Foundry-Developers/intro.js-lib",
+  "manifest": "https://github.com/League-of-Foundry-Developers/intro.js-lib/releases/download/latest/module.json",
+  "download": "https://github.com/League-of-Foundry-Developers/intro.js-lib/releases/download/0.0.1/module.zip",
+  "media": [
+    {
+			"type": "icon",
+			"link": "https://introjs.com/img/logo.svg"
+		}
+  ]
 }
