@@ -7,6 +7,9 @@
 <!--- replace <your-module-name> with the `name` in your manifest -->
 <!--- ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2F<your-module-name>&colorB=4aa94a) -->
 
+# FVTT Package
+
+LIBRARY: intro.js - This module is just a dependency for other modules and does not offer any functionality on its own. This module includes the popular intro.js library.
 
 # Intro.js v3
 
