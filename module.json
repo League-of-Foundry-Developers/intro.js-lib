@@ -2,7 +2,7 @@
     "name": "_introjs",
     "title": "Intro.js",
     "description": "The IntroJS library allows you to easily lead users through engaging tutorials",
-    "version": "3.2.1-fvtt2",
+    "version": "3.2.1-fvtt3",
     "library": "true",
     "manifestPlusVersion": "1.2.0",
     "minimumCoreVersion": "0.7.9",
