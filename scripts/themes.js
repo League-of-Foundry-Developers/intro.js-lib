@@ -17,7 +17,7 @@ Hooks.on("init", () => {
 Hooks.on("altIntroTheme", () => {
 
     // Remove all existing uses of themes
-    document.querySelectorAll("intro-theme").forEach(element => element.remove());
+    document.querySelectorAll(".intro-theme").forEach(element => element.remove());
 
     // Use new theme; add it to the DOM
     let el = document.createElement("link");
