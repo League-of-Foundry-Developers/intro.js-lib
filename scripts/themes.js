@@ -28,11 +28,5 @@ Hooks.on("altIntroTheme", () => {
         el.type = "text/css";
         el.media = "all";
         document.head.appendChild(el);
-
-        // Change skip label
-        document.querySelector(".introjs-tooltip-header > a")?.innerHTML = "<i class=\"fas fa-times\"></i>";
-    } else {
-        // Revert skip label to default
-        document.querySelector(".introjs-tooltip-header > a")?.innerHTML = "×"
     };
 });
