@@ -1,15 +1,15 @@
-// Allow user to enable theme
-game.settings.register("_introjs", "theme", {
-    name: "Alternate Theme",
-    scope: "client",
-    config: true,
-    type: Boolean,
-    default: true,
-    onChange: () => Hooks.call("altIntroTheme")
-});
-
 // Set theme on initialization
-Hooks.on("init", ()=> {
+Hooks.on("init", () => {
+    // Allow user to enable and disable theme
+    game.settings.register("_introjs", "theme", {
+        name: "Alternate Theme",
+        scope: "client",
+        config: true,
+        type: Boolean,
+        default: true,
+        onChange: () => Hooks.call("altIntroTheme")
+    });
+
     if (game.settings.get("_introjs", "theme")) Hooks.call("altIntroTheme");
 });
 
