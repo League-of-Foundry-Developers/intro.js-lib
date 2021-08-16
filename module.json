@@ -2,11 +2,12 @@
     "name": "_introjs",
     "title": "Intro.js",
     "description": "The IntroJS library allows you to easily lead users through engaging tutorials",
-    "version": "3.2.1-fvtt4",
+    "version": "3.2.1-fvtt5",
     "library": "true",
     "manifestPlusVersion": "1.2.0",
     "minimumCoreVersion": "0.7.9",
     "compatibleCoreVersion": "0.8.8",
+    "author": "The League of Extraordinary FVTT Developers",
     "authors": [
         {
             "name": "The League of Extraordinary FVTT Developers",
@@ -16,9 +17,17 @@
         {
             "name": "Intro.js",
             "url": "https://github.com/usablica/intro.js"
+        },
+        {
+            "name": "arcanist",
+            "url": "https://arcanistzed.github.io/",
+            "email": "arcanistzed@gmail.com",
+            "discord": "arcanist#4317",
+            "reddit": "u/arcanistzed"
         }
     ],
     "scripts": [
+        "scripts/themes.js",
         "intro.min.js"
     ],
     "styles": [

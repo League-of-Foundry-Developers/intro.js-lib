@@ -2,10 +2,11 @@
 ![Latest Release Download Count](https://img.shields.io/github/downloads/League-of-Foundry-Developers/intro.js-lib/latest/module.zip?label=Downloads)
 ![Forge Installs](https://img.shields.io/badge/dynamic/json?label=Forge%20Installs&query=package.installs&suffix=%25&url=https%3A%2F%2Fforge-vtt.com%2Fapi%2Fbazaar%2Fpackage%2F_introjs&colorB=4aa94a)
 
-# FVTT Package
+# IntroJS Library
 
-LIBRARY: intro.js - This module is just a dependency for other modules and does not offer any functionality on its own. This module includes the popular intro.js library.
+This module includes the popular intro.js library and is a dependency for other modules that offers little functionality on its own.
 
+> Below is the original IntroJS README
 # Intro.js v3
 
 [![Build Status](https://travis-ci.org/usablica/intro.js.svg?branch=master)](https://travis-ci.org/usablica/intro.js)
